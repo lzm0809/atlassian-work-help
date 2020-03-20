@@ -1,5 +1,5 @@
-# 查询项目与方案之间的关系
-'''
+## 查询项目与方案之间的关系
+```mysql
 SELECT
 	p.id AS project_id ,
 	p.pname AS project_name ,
@@ -15,4 +15,4 @@ LEFT JOIN fieldlayoutscheme ws ON ws.id = na.sink_node_id
 -- LEFT OUTER JOIN workflowschemeentity wse ON wse.scheme = ws.id
 -- LEFT OUTER JOIN jiraworkflows jw ON jw.workflowname = wse.workflow
 WHERE p.pname='<projectname>'
-'''
+```
