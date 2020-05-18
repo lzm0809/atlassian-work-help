@@ -1,4 +1,4 @@
-## 查询项目与方案之间的关系MarkdownPreview
+## 查询项目与方案之间的关系
 ```mysql
 SELECT
 	p.id AS project_id ,
